@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="add-game-container">
+        <div>
+          <p id="status-game-to-add"></p>
+        </div>
+
+        <input id="tf-game-to-add" class="text-field" placeholder="Game to Add"></input>
+        <button id="btn-game-to-add" class="btn">Add</button>
+
+        <div>
+          <select id="cb-game-to-add" class="combo-box">
+            <option id="cb-initial-option">No Games to Show</option>
+          </select>
+          <button id="btn-game-to-remove" class="btn">Remove</button>
+        </div>
+      </div>
+
+      <div id="divContainer">
+
+      </div>
+    </div>
+
+    <script type="text/javascript" src="scripts/topLevelFunctions.js"></script>
+    <script type="text/javascript" src="scripts/config.js"></script>
+    <script type="text/javascript" src="scripts/popup.js"></script>
+    <script type="text/javascript" src="scripts/initializeGamesComboBox.js"></script>
+    <script type="text/javascript" src="scripts/addGame.js"></script>
+    <script type="text/javascript" src="scripts/removeGame.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fast Twitch Games Extension",
+  "description": "This extension lets you quickly see streams for your favorite games.",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "twitchLogo.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
