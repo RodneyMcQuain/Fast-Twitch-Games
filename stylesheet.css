@@ -23,6 +23,10 @@ input.text-field:focus, .btn:focus, .combo-box:focus {
   outline: none;
 }
 
+.combo-box {
+  cursor: pointer;
+}
+
 .btn {
   cursor: pointer;
   transition: .4s;
