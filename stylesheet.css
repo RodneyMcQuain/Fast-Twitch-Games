@@ -27,6 +27,10 @@ input.text-field:focus, .btn:focus, .combo-box:focus {
   cursor: pointer;
 }
 
+.combo-box:focus > option:checked {
+  background: #6441A4;
+}
+
 .btn {
   cursor: pointer;
   transition: .4s;
